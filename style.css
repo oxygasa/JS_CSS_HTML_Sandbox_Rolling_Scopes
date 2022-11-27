@@ -12,14 +12,14 @@
 #background{
     background-color: antiquewhite;
 }
-.header{
+header{
     background-color: rgb(223, 207, 141);
 }
 .header_links{
    background-color: bisque;
    margin-inline: 5px; 
 }
-.footer{
+footer{
     background-color: rgb(223, 207, 141); 
 }
 .footer_links{
