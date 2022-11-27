@@ -8,7 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-    <img id="loader" src="media\loading_anim.gif" alt="123">
+<h1 class = "any_tag_attribute_class" id = "any_tag_attribute_id1">Заголовок. Тег h1.</h1>
+<p  class = "any_tag_attribute_class" id = "any_tag_attribute_id2">Параграф. Тег p. (в коде, как видим любому тегу можно присвоить атрибут)</p>
+<p>имеет отличия от div. А именно  margin 8px по умолчанию себе поставил. Сбросить все возможные margin, padding до 0px можно загуглив <a href="https://www.google.com/search?q=reset+css&oq=reset+css&aqs=chrome..69i57j0i512l9.2903j0j7&sourceid=chrome&ie=UTF-8">reset css.</a></p>
+<a href="https://google.com" target="_blank">Ссылка.</a> (у неё есть свой атрибут для ввода ссылки "href" и атрибут для открытия в новом вкладке "taget blank")
+<ol>Обозначение списка цифрами. Тег ol.
+    <li>Элемент списка 1. Тег li.</li>
+    <li>Элемент списка 2 Тег li.</li>
+    <li>Элемент списка 3 Тег li.</li>
+    <li>Элемент списка 4 Тег li.</li>
+</ol>
+<ul>Обозначение списка точками (буллетами). Тег ol.
+    <li>Элемент списка 1. Тег li.</li>
+    <li>Элемент списка 2 Тег li.</li>
+    <li>Элемент списка 3 Тег li.</li>
+    <li>Элемент списка 4 Тег li.</li>
+</ul>
+<div> div - division, блок, блочный элемент. По вертикали. Может содержать теги или ещё блоков. В нём атрибутами можно менять стиль. Но так давно не принято и стиль меняют через css.</div>
+<div style="background-color: red;", style="text-decoration-color: white;">
+    <span>Span - блочный элемент. </span>
+    <span>По горизонтали. </span>
+</div>   
+Картинка. alt - это "альтернативное название"
+<img id="loader" src="media\loading_anim.gif" alt="123">
     <img id="preview_image" src="media\preview_image.jpg" alt="312" onload="loadingAnim()">
 <script>
     function loadingAnim(){
