@@ -4,9 +4,14 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 #preview_image{
-    color:#333;
     width: 50%;
     height: 50%;
+}
+#studying_image{
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
 }
 .any_tag_attribute_class{
     width: 100%;
@@ -31,3 +36,4 @@ footer{
     background-color: bisque;
     margin-inline: 5px; 
  }
+
